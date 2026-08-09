@@ -16,3 +16,5 @@ powershell.exe -NoLogo -NoProfile -STA -ExecutionPolicy Bypass -File .\R6-Plus-D
 ```
 
 The real owner key manager is intentionally kept off GitHub. It contains the private signing key used to issue licenses.
+
+R6 (:+ checks the signed `revoked-licenses.r6r` manifest from this repository while it is running. After terminating a key in the private owner manager, publish the updated manifest to this repository so customer sessions can receive the revocation.

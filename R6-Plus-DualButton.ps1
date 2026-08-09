@@ -304,7 +304,7 @@ public static class WpfPlusLicenseManager
 # Optional for distributed customers: publish the owner's signed
 # revoked-licenses.r6r file at an HTTPS URL and put that URL here. When this
 # is blank, the app checks the local owner-data folder automatically.
-$revocationManifestUrl = ''
+$revocationManifestUrl = 'https://raw.githubusercontent.com/zacamin976-bot/Mouse-Movement-Macro/main/revoked-licenses.r6r'
 [WpfPlusLicenseManager]::RevocationManifestUrl = $revocationManifestUrl
 
 function Show-ActivationWindow {
