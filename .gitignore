@@ -1,0 +1,9 @@
+# Never commit owner data, issued licenses, or revocation manifests.
+Owner-Data/
+*.csv
+*.r6r
+*.tmp
+
+# Keep the production owner tool and any private-key backups out of the repo.
+PRIVATE-OWNER-ONLY-R6-KEYGEN.ps1
+*private*key*
